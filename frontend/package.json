@@ -9,7 +9,7 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "PORT=${REACT_APP_PORT:-3000} react-scripts start",
+    "start": "HOST=0.0.0.0 PORT=${REACT_APP_PORT:-3000} BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
