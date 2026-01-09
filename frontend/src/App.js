@@ -17,7 +17,7 @@ function getWinner(squares) {
     [2, 5, 8],
 
     [0, 4, 8],
-    [2, 4, 6]
+    [2, 4, 6],
   ];
 
   for (const [a, b, c] of lines) {
@@ -115,12 +115,10 @@ export default function App() {
         <footer className="footer">
           <div className="legend">
             <span className="legend__item">
-              <span className="dot dot--x" aria-hidden="true" />
-              X
+              <span className="dot dot--x" aria-hidden="true" />X
             </span>
             <span className="legend__item">
-              <span className="dot dot--o" aria-hidden="true" />
-              O
+              <span className="dot dot--o" aria-hidden="true" />O
             </span>
           </div>
 
