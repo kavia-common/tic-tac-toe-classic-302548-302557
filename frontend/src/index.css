@@ -3,10 +3,14 @@
   --surface: #ffffff;
   --text: #111827;
   --muted: #64748b;
-  --primary: #3b82f6;
-  --success: #06b6d4;
+
+  /* Green theme */
+  --primary: #16a34a; /* green-600 */
+  --success: #22c55e; /* green-500 */
   --error: #ef4444;
-  --ring: rgba(59, 130, 246, 0.25);
+
+  /* Focus ring based on green primary */
+  --ring: rgba(22, 163, 74, 0.25);
 }
 
 * {
@@ -33,7 +37,7 @@ body {
   background:
     radial-gradient(
       900px 500px at 50% 0%,
-      rgba(59, 130, 246, 0.1),
+      rgba(22, 163, 74, 0.12),
       transparent
     ),
     var(--bg);
